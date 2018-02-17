@@ -88,6 +88,7 @@ brew "zsh"
 
 # Desktop apps to install via Cask
 cask "atom"
+cask "alfred"
 cask "betterzip"
 cask "caffeine"
 cask "charles"

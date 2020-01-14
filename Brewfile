@@ -1,6 +1,10 @@
 cask_args appdir: "/Applications"
 tap "petems/homebrew-vault-prebuilt"
+tap "petems/homebrew-sentinel-simulator"
+brew 'petems/vault-prebuilt/vault'
+brew 'petems/sentinel-simulator/sentinel-simulator'
 
+# Loads of things have a hard dependancy on this Java package now...
 cask "adoptopenjdk"
 
 brew "ack"
@@ -52,7 +56,6 @@ brew "graphicsmagick"
 brew "graphviz"
 brew "grep"
 brew "gzip"
-brew "heroku"
 brew "htop"
 brew "httpie"
 brew "hub"
@@ -151,6 +154,7 @@ brew "zsh"
 cask "1password"
 cask "atom"
 cask "alfred"
+cask "bartender"
 cask "betterzip"
 cask "busycal"
 cask "caffeine"
@@ -167,6 +171,7 @@ cask "insomnia"
 cask "iterm2"
 cask "intellij-idea"
 cask "istat-menus"
+cask "keybase"
 cask "licecap"
 cask "osxfuse"
 cask "pritunl"
@@ -175,6 +180,7 @@ cask "skype"
 cask "slack"
 cask "sourcetree"
 cask "spectacle"
+cask "steam"
 cask "switchresx"
 cask "sublime-text"
 cask "telegram"
@@ -186,3 +192,4 @@ cask "vmware-fusion"
 cask "zoomus"
 
 mas "Microsoft Remote Desktop", id: 715768417
+mas "Next Meeting", id: 1017470484

@@ -167,14 +167,13 @@ cask "eclipse-java"
 cask "firefox"
 cask "rowanj-gitx"
 cask "google-chrome"
-cask "insomnia"
 cask "iterm2"
 cask "intellij-idea"
 cask "istat-menus"
 cask "keybase"
+cask "kitematic"
 cask "licecap"
 cask "osxfuse"
-cask "pritunl"
 cask "sketch"
 cask "skype"
 cask "slack"
@@ -193,3 +192,4 @@ cask "zoomus"
 
 mas "Microsoft Remote Desktop", id: 715768417
 mas "Next Meeting", id: 1017470484
+mas "Rest", id: 661067914

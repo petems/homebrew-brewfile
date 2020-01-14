@@ -151,7 +151,7 @@ brew "zsh"
 # Desktop apps to install via Cask
 cask "1password"
 cask "atom"
-cash "adoptopenjdk"
+cask "adoptopenjdk"
 cask "alfred"
 cask "betterzip"
 cask "busycal"

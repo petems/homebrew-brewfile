@@ -1,6 +1,6 @@
 cask_args appdir: "/Applications"
-tap "caskroom/cask"
-tap "caskroom/versions"
+tap "homebrew/cask-cask"
+tap "homebrew/cask-versions"
 tap "petems/homebrew-vault-prebuilt"
 
 brew "ack"
@@ -152,6 +152,7 @@ brew "zsh"
 # Desktop apps to install via Cask
 cask "1password"
 cask "atom"
+cash "adoptopenjdk"
 cask "alfred"
 cask "betterzip"
 cask "busycal"

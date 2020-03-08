@@ -188,9 +188,11 @@ cask "timestamp"
 cask "transmit"
 cask "vagrant"
 cask "virtualbox"
+cask "visual-studio-code"
 cask "vmware-fusion"
 cask "zoomus"
 
+mas "Irvue", id: 1039633667
 mas "Microsoft Remote Desktop", id: 715768417
 mas "Next Meeting", id: 1017470484
 mas "Rest", id: 661067914

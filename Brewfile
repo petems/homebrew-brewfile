@@ -1,10 +1,6 @@
 cask_args appdir: "/Applications"
-tap "petems/homebrew-vault-prebuilt"
-tap "petems/homebrew-sentinel-simulator"
 tap "golangci/tap"
 brew "golangci/tap/golangci-lint"
-brew 'petems/vault-prebuilt/vault'
-brew 'petems/sentinel-simulator/sentinel-simulator'
 
 # Loads of things have a hard dependancy on this Java package now...
 cask "adoptopenjdk"
@@ -162,6 +158,7 @@ cask "betterzip"
 cask "busycal"
 cask "caffeine"
 cask "charles"
+cask "cleanshot"
 cask "dash"
 cask "datagrip"
 cask "docker"

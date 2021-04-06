@@ -1,5 +1,6 @@
 cask_args appdir: "/Applications"
 tap "golangci/tap"
+tap "carlocab/personal/unrar"
 brew "golangci/tap/golangci-lint"
 
 # Loads of things have a hard dependancy on this Java package now...
